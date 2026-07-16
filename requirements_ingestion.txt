@@ -1,0 +1,9 @@
+PyMuPDF
+langchain
+langchain-text-splitters
+tiktoken
+openai
+azure-storage-blob
+azure-search-documents==11.6.0b4
+azure-core
+python-dotenv

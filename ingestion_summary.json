@@ -1,0 +1,26 @@
+[
+  {
+    "index": "kb-256",
+    "chunk_tokens": 256,
+    "overlap_tokens": 51,
+    "total_pages": 362,
+    "total_chunks": 1271,
+    "uploaded": 1271
+  },
+  {
+    "index": "kb-512",
+    "chunk_tokens": 512,
+    "overlap_tokens": 102,
+    "total_pages": 362,
+    "total_chunks": 689,
+    "uploaded": 689
+  },
+  {
+    "index": "kb-1024",
+    "chunk_tokens": 1024,
+    "overlap_tokens": 205,
+    "total_pages": 362,
+    "total_chunks": 438,
+    "uploaded": 438
+  }
+]

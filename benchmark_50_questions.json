@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "title": "Agentic RAG Academic Advisor - Benchmark Dataset",
+    "author": "Nada Ali Yaqoob (202507955)",
+    "purpose": "RQ2 evaluation - Retrieval Precision@5 across kb-256 / kb-512 / kb-1024 chunking strategies",
+    "institution": "Bahrain Polytechnic",
+    "created": "2026-07-13",
+    "num_questions": 50,
+    "source_documents": [
+      "Bachelor_of_Business__Marketing.pdf",
+      "Student-Handbook.pdf",
+      "Academic-Regulations.pdf",
+      "Academic_Calendar.pdf"
+    ],
+    "question_type_legend": {
+      "factual_lookup": "Single fact, directly stated, retrievable from one chunk",
+      "numerical": "Requires precise number/date/percentage retrieval",
+      "multi_hop": "Requires combining information from 2+ chunks or documents",
+      "policy_interpretation": "Requires understanding a rule/procedure, not just a fact"
+    },
+    "difficulty_legend": {
+      "easy": "Answer likely in a single short chunk, low ambiguity",
+      "medium": "Answer may span a paragraph or require some context",
+      "hard": "Answer requires synthesis across sections/documents or fine distinction"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "What is the programme code for the Bachelor of Business: Marketing degree?",
+      "ground_truth_answer": "BBS8011",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Programme Code",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q002",
+      "question": "How many total credits are required to complete the Bachelor of Business Marketing programme?",
+      "ground_truth_answer": "480 credits",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Programme Credits",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q003",
+      "question": "What is the standard duration of the Bachelor of Business Marketing programme?",
+      "ground_truth_answer": "4 years / cycle",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Programme Duration",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q004",
+      "question": "What English and Mathematics courses meet the specific entry requirements for the BBS Marketing programme?",
+      "ground_truth_answer": "AP5202 English 2 and AP4103 Mathematics 2 (or equivalent), or passing the English and Mathematics Selection Tests at the required level.",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Entry and Selection",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q005",
+      "question": "Which professional body accredits the Bachelor of Business Marketing programme, and what certification can graduates receive?",
+      "ground_truth_answer": "It is accredited by DMI (Digital Marketing Institute). Graduates can receive the CDMA (Certified Digital Marketing Associate) certification and Power Member designation.",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Accreditation / External Approval Requirements",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q006",
+      "question": "Which three courses are used as Major Selection Criteria for entry into the Marketing major?",
+      "ground_truth_answer": "BU6001 Introduction to Marketing, BU6010 Management Information Systems, and BU6011 Business Research Methods.",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Major Selection Criteria",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q007",
+      "question": "What are the core courses offered in Year 3, Semester 1 of the BBS Marketing programme?",
+      "ground_truth_answer": "Digital Marketing (BU7102), Integrated Marketing Communication (BU7101), and Marketing Research (BU7103).",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Year 3 / Semester 1",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q008",
+      "question": "What optional courses can a Marketing student choose from in Year 4, Semester 1?",
+      "ground_truth_answer": "Brand Management (BU8103) and International Marketing (BU8100).",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Year 4 / Semester 1",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q009",
+      "question": "What options does a BBS Marketing student have for their Year 4, Semester 2 cooperative industry project?",
+      "ground_truth_answer": "Cooperative Industry Project Enterprise (BU8197), Cooperative Industry Project Marketing (BU8199), or Cooperative Industry Project Marketing & Enterprise (BU8198).",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Year 4 / Semester 2",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q010",
+      "question": "Name three career pathways the BBS Marketing programme prepares graduates for.",
+      "ground_truth_answer": "Any three of: Brand Manager, Content Marketer, Digital Marketing Executive, Marketing Analytics Analyst, Marketing Coordinator, Product Manager, PR Executive, SEO Executive, Social Media Specialist, Events Marketing Executive, Marketing Manager, Media Buyer, Advertising & Promotions Manager.",
+      "source_document": "Bachelor_of_Business__Marketing.pdf",
+      "source_section": "Graduate Pathways and Destination - Employment",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q011",
+      "question": "What is the minimum attendance percentage required in all courses at Bahrain Polytechnic?",
+      "ground_truth_answer": "80% (with 20% absence allowed for extenuating circumstances).",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "3.2 Attendance Requirements",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q012",
+      "question": "What grade is a student given if they are automatically withdrawn from a course due to excessive absence, and what does it stand for?",
+      "ground_truth_answer": "'WA' - Withdrawn Attendance. This is a failing grade issued automatically when a learner's absences exceed the 20% threshold.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "3.2 Attendance Requirements / 3.5 Attendance Records",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q013",
+      "question": "What is the minimum CGPA required for a student to be retained in a Bachelor's Degree programme?",
+      "ground_truth_answer": "2.25",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.6 Retention and Dismissal",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q014",
+      "question": "What is the minimum CGPA required for retention in Master's and Doctoral Degree programmes?",
+      "ground_truth_answer": "2.75",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.6 Retention and Dismissal",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q015",
+      "question": "How many probation notices does a student receive before being dismissed for failing to meet the minimum retention GPA?",
+      "ground_truth_answer": "Three (3) probation notices.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.6 Retention and Dismissal",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q016",
+      "question": "What percentage mark range corresponds to a passing grade at Bahrain Polytechnic?",
+      "ground_truth_answer": "60-100% (below 60% is a fail, graded F).",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "4.3 Grading System",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q017",
+      "question": "What Grade Point Value (GPV) corresponds to an A+ grade, and what percentage range does it represent?",
+      "ground_truth_answer": "GPV of 4, representing 95-100% (Distinction).",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "4.3 Grading System",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q018",
+      "question": "How many credits are required at the award level for a Diploma (NQF Level 6)?",
+      "ground_truth_answer": "240 credits.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "4.4.3 Diploma",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q019",
+      "question": "What weighted average mark is required in classifying courses for a Bachelor Degree to be awarded with Distinction?",
+      "ground_truth_answer": "A weighted average mark of at least 90% in the classifying courses.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "4.4.5 Bachelor Degree at NQF Level 8",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q020",
+      "question": "What is the maximum number of failed credits a learner can carry over into the next academic year while still progressing?",
+      "ground_truth_answer": "A maximum of 15 credits.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.3 Year Progression",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q021",
+      "question": "Under what conditions can a learner not carry a failed course over to the next year?",
+      "ground_truth_answer": "If the credits exceed 15, if the learner did not attempt both the original and repeat examination, if the result is a 'Failed Element,' or if the failed course is a prerequisite for a course in the subsequent year.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.3 Year Progression",
+      "difficulty": "hard",
+      "question_type": "policy_interpretation"
+    },
+    {
+      "id": "Q022",
+      "question": "How many working days notice is allowed for extensions to deadlines for projects or assignments (not controlled assessments)?",
+      "ground_truth_answer": "Up to a maximum of 2 working days, and the application must be made before the stated deadline.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Examinations and Assessment - Assessment Submission Extensions",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q023",
+      "question": "What is the maximum mark a learner can achieve on a late submission or resubmission of continuous assessment?",
+      "ground_truth_answer": "The minimum pass mark or grade for that assessment.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Examinations and Assessment - Late Submissions, Resubmissions, and Resits",
+      "difficulty": "medium",
+      "question_type": "policy_interpretation"
+    },
+    {
+      "id": "Q024",
+      "question": "According to the Academic Regulations, what is the difference between the grades 'W' and 'WF'?",
+      "ground_truth_answer": "'W' (Withdrawn) means no academic penalty applied - the learner withdrew within the approved window. 'WF' (Withdrawn Fail) is a failing grade given when a learner withdraws from a course after 20 working days from the published closing date.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "4.2 Determination of Award Classification",
+      "difficulty": "hard",
+      "question_type": "policy_interpretation"
+    },
+    {
+      "id": "Q025",
+      "question": "What is the workload requirement in credits per semester for a full-time learner?",
+      "ground_truth_answer": "At least 60 credits per semester, and 120 credits across a two-semester academic session.",
+      "source_document": "Academic-Regulations.pdf",
+      "source_section": "5.2 Workload",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q026",
+      "question": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+      "ground_truth_answer": "14 September 2025.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "September 2025",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q027",
+      "question": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+      "ground_truth_answer": "8 January 2026.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "January 2026",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q028",
+      "question": "When is the Mid-Semester Break for Semester 1 of 2025/2026?",
+      "ground_truth_answer": "26-30 October 2025.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "October 2025",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q029",
+      "question": "When does Semester 2 of the 2025-2026 academic year begin?",
+      "ground_truth_answer": "22 February 2026.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "February 2026",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q030",
+      "question": "When is the Assessment Week scheduled for the end of Semester 2 (2025/2026)?",
+      "ground_truth_answer": "7-11 June 2026.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "June 2026",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q031",
+      "question": "When are Semester 2 results released to students, according to the 2025/2026 Academic Calendar?",
+      "ground_truth_answer": "7 July 2026.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "July 2026",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q032",
+      "question": "What is the last day to withdraw from a course without academic penalty in Semester 1 (2025/2026)?",
+      "ground_truth_answer": "30 October 2025.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "October 2025",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q033",
+      "question": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+      "ground_truth_answer": "16-27 August 2026.",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "August 2026",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q034",
+      "question": "What days and hours do classes normally run at Bahrain Polytechnic?",
+      "ground_truth_answer": "Sunday to Thursday, from 8:00 am to 9:00 pm (local time).",
+      "source_document": "Academic_Calendar.pdf",
+      "source_section": "Classes normally run Sunday to Thursday",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q035",
+      "question": "A student's course was withdrawn for excessive absence. Based on both the Academic Regulations and the Academic Calendar, by what date in Semester 1 (2025/2026) must they have applied to withdraw to avoid academic penalty, and what would happen if they missed it?",
+      "ground_truth_answer": "The last day to withdraw without academic penalty was 30 October 2025. If a learner withdraws after this date, per the Academic Regulations, they would instead receive a 'WF' (Withdrawn Fail) grade, which does count against their CGPA.",
+      "source_document": "Academic_Calendar.pdf; Academic-Regulations.pdf",
+      "source_section": "October 2025;4.2 Determination of Award Classification",
+      "difficulty": "hard",
+      "question_type": "multi_hop"
+    },
+    {
+      "id": "Q036",
+      "question": "What is the email address for the Student Information Centre's Registration office?",
+      "ground_truth_answer": "Registration@Polytechnic.bh",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Useful Contacts",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q037",
+      "question": "In which building is the Health and Wellness Centre located?",
+      "ground_truth_answer": "Building 16.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Health and Wellness Centre",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q038",
+      "question": "How many items can a learner borrow from the Library Learning Centre, and for how long?",
+      "ground_truth_answer": "A maximum of five items for three weeks.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Library Services",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q039",
+      "question": "What is the penalty for returning a library book late?",
+      "ground_truth_answer": "BD 1 per book per day, not exceeding BD 30.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Library Services",
+      "difficulty": "medium",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q040",
+      "question": "What are Bahrain Polytechnic's core values?",
+      "ground_truth_answer": "Excellence, Learning, and Innovation.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Our core values are Excellence",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q041",
+      "question": "What does the Academic Advising service involve for a Bahrain Polytechnic learner?",
+      "ground_truth_answer": "Each learner is assigned an advisor at the start of the academic year, who meets with them regularly to monitor attendance, review progress, advise on class schedules, and assist with decision-making in the academic journey.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Academic Advising",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q042",
+      "question": "What kind of support does the Academic Support Centre (ASC) offer to undergraduate learners?",
+      "ground_truth_answer": "It supports learners having academic difficulties, specifically with English Language and Math, offering extra help, skill-development training, peer support, and workshops such as communication, entrepreneurial, and presentation skills.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Academic Facilities and Resources",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q043",
+      "question": "List three acts that constitute academic misconduct according to Bahrain Polytechnic policy.",
+      "ground_truth_answer": "Any three of: cheating, collusion, fabrication, fraud, presenting information falsely, obstruction/interference, plagiarism, or research misconduct.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Academic Misconduct",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q044",
+      "question": "What is the process for a learner to submit an academic appeal to the Faculty Appeal Committee?",
+      "ground_truth_answer": "The eligible learner, upon consultation with the Student Information Centre (SIC), must fill out the Appeal Form available at SIC and pay the corresponding fees at the Finance Unit. SIC then forwards the stamped application to Faculty Administrators for the Dean's review.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Appeals to Faculty Appeal Committee",
+      "difficulty": "hard",
+      "question_type": "policy_interpretation"
+    },
+    {
+      "id": "Q045",
+      "question": "What happens if a learner loses a library book?",
+      "ground_truth_answer": "They must pay BD 25 plus the original cost of the book, OR buy the same or new edition of the book for the LLC without paying the BD 25.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Library Services",
+      "difficulty": "medium",
+      "question_type": "policy_interpretation"
+    },
+    {
+      "id": "Q046",
+      "question": "Who should a learner contact for information about scholarships, and where are they located?",
+      "ground_truth_answer": "The Scholarship Coordinator, located at office 8.007.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Scholarships and Fees",
+      "difficulty": "easy",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q047",
+      "question": "What are the operating hours of the Security Office at Campus A?",
+      "ground_truth_answer": "8:00 to 16:00, Sunday to Thursday (Building C8, Campus A).",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Polytechnic security staff are available",
+      "difficulty": "easy",
+      "question_type": "numerical"
+    },
+    {
+      "id": "Q048",
+      "question": "What are the eight Employability Skills defined by Bahrain Polytechnic?",
+      "ground_truth_answer": "Communication, Teamwork, Problem Solving, Planning and Organisation, Learning, Initiative and Enterprise, Self-Management, and Technology.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Definitions of Employability Skills at Bahrain Polytechnic",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q049",
+      "question": "What is the role of PASS (Peer Assisted Study Scheme) leaders?",
+      "ground_truth_answer": "PASS leaders are learners nominated by tutors and Programme Managers who assist other students individually or in groups to master course concepts, study skills, and cognitive skills, outside the classroom.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Learning Support",
+      "difficulty": "medium",
+      "question_type": "factual_lookup"
+    },
+    {
+      "id": "Q050",
+      "question": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+      "ground_truth_answer": "They could access the Polytechnic Counseling Services, which offers free, strictly confidential psychological support to all currently enrolled learners for academic, social, emotional, or career-related problems, as well as Academic Advising and Mentoring for academic support.",
+      "source_document": "Student-Handbook.pdf",
+      "source_section": "Counseling; Academic Advising; Mentoring",
+      "difficulty": "hard",
+      "question_type": "multi_hop"
+    }
+  ]
+}
