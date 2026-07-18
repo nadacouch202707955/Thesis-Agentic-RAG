@@ -64,43 +64,34 @@ This research designs, implements, and evaluates an Agentic RAG system that grou
 
 ## Current Status
 
-Mid-review submission (Week 6 of 13) — Basic RAG baseline validated, 50-question benchmark finalised, and retrieval evaluation (RQ2) in progress across three chunking configurations. Agentic RAG development begins next phase.
+# Screenshots — Evidence Log
 
-Screenshots — Evidence Log
 Visual evidence of Azure infrastructure setup and Python script execution outputs, supporting the Mid-Review Progress Report (Objectives O1–O4). Click any filename to open the screenshot on GitHub.
-Screenshot	Description
-Azure Portal — Resource Group & Services
-azure-resource-group-overview.png
-All provisioned resources under one resource group (AI Foundry, AI Search, Blob Storage)
-azure-ai-foundry-project.png
-Azure AI Foundry project dashboard/hub overview
-azure-ai-search-overview.png
-AI Search service overview (name, endpoint, pricing tier)
-azure-ai-search-indexes.png
-All 3 indexes (kb-256, kb-512, kb-1024) with document counts
-azure-blob-storage-container.png
-academic-advising-docs container with 73 uploaded institutional PDFs
-azure-openai-deployment.png
-Deployed models: GPT-5-mini, text-embedding-3-small, GPT-4o
-VS Code — Python File Outputs
-ingestion-summary-output.png
-Verified chunk counts per KB configuration (kb-256: 1,271 chunks, kb-512: 689 chunks, kb-1024: 438 chunks)
-basic-rag-sample-query-output.png
-Sample query with grounded response and source citation
-basic-rag-validation-test.png
-Multiple test queries (GPA, attendance, award classification) showing consistent, correctly-grounded responses
-retrieval-eval-run-log.png
-150 hybrid searches completed across kb-256/512/1024, zero errors
-retrieval-eval-progress.png
-Mid-run progress showing searches executing across configurations
-p5-scorer-output.png
-Precision@5 scores calculated per KB configuration
-ground-truth-resolution-output.png
-Ground-truth page references resolved/verified for the benchmark dataset
-benchmark-questions-sample.png
-Sample entries from the verified 50-question benchmark JSON
-retrieval-results-sample.png
-Sample entries from the retrieval evaluation results JSON
+
+## Azure Portal — Resource Group & Services
+
+| Screenshot | Description |
+|---|---|
+| [azure-resource-group-overview.png](./azure/azure-resource-group-overview.png) | All provisioned resources under one resource group (AI Foundry, AI Search, Blob Storage) |
+| [azure-ai-foundry-project.png](./azure/azure-ai-foundry-project.png) | Azure AI Foundry project dashboard/hub overview |
+| [azure-ai-search-overview.png](./azure/azure-ai-search-overview.png) | AI Search service overview (name, endpoint, pricing tier) |
+| [azure-ai-search-indexes.png](./azure/azure-ai-search-indexes.png) | All 3 indexes (kb-256, kb-512, kb-1024) with document counts |
+| [azure-blob-storage-container.png](./azure/azure-blob-storage-container.png) | academic-advising-docs container with 73 uploaded institutional PDFs |
+| [azure-openai-deployment.png](./azure/azure-openai-deployment.png) | Deployed models: GPT-5-mini, text-embedding-3-small, GPT-4o |
+
+## VS Code — Python File Outputs
+
+| Screenshot | Description |
+|---|---|
+| [ingestion-summary-output.png](./code-outputs/ingestion-summary-output.png) | Verified chunk counts per KB configuration (kb-256: 1,271 chunks, kb-512: 689 chunks, kb-1024: 438 chunks) |
+| [basic-rag-sample-query-output.png](./code-outputs/basic-rag-sample-query-output.png) | Sample query with grounded response and source citation |
+| [basic-rag-validation-test.png](./code-outputs/basic-rag-validation-test.png) | Multiple test queries (GPA, attendance, award classification) showing consistent, correctly-grounded responses |
+| [retrieval-eval-run-log.png](./code-outputs/retrieval-eval-run-log.png) | 150 hybrid searches completed across kb-256/512/1024, zero errors |
+| [retrieval-eval-progress.png](./code-outputs/retrieval-eval-progress.png) | Mid-run progress showing searches executing across configurations |
+| [p5-scorer-output.png](./code-outputs/p5-scorer-output.png) | Precision@5 scores calculated per KB configuration |
+| [ground-truth-resolution-output.png](./code-outputs/ground-truth-resolution-output.png) | Ground-truth page references resolved/verified for the benchmark dataset |
+| [benchmark-questions-sample.png](./code-outputs/benchmark-questions-sample.png) | Sample entries from the verified 50-question benchmark JSON |
+| [retrieval-results-sample.png](./code-outputs/retrieval-results-sample.png) | Sample entries from the retrieval evaluation results JSON |
 
 
 
