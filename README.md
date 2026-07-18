@@ -68,10 +68,6 @@ This research designs, implements, and evaluates an Agentic RAG system that grou
 
 Visual evidence of Azure infrastructure setup and Python script execution outputs, supporting the Mid-Review Progress Report (Objectives O1–O4). Click any filename to open the screenshot on GitHub.
 
-# Screenshots — Evidence Log
-
-Visual evidence of Azure infrastructure setup and Python script execution outputs, supporting the Mid-Review Progress Report (Objectives O1–O4). Click any filename to open the screenshot on GitHub.
-
 ## Azure Portal — Resource Group & Services
 
 | Screenshot | Description |
@@ -97,9 +93,6 @@ Visual evidence of Azure infrastructure setup and Python script execution output
 | [retrieval-results-sample.png](./retrieval-results-sample.png) | Sample entries from the retrieval evaluation results JSON |
 | [Question3.png](./Question3.png) | Sample validation query (Q3) |
 | [question4.png](./question4.png) | Sample validation query (Q4) |
-
-
-
 
 
 ## Author
