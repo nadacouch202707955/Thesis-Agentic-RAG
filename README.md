@@ -64,7 +64,29 @@ This research designs, implements, and evaluates an Agentic RAG system that grou
 
 ## Current Status
 
+## 📸 Screenshots — Evidence Log
 
+Visual evidence of Azure infrastructure setup and Python execution outputs supporting the implementation and evaluation of the proposed Agentic RAG framework.
+
+| Screenshot | Description |
+|------------|-------------|
+| **Azure Portal — Resource Group & Services** | |
+| [azure-resource-group-overview.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | All provisioned resources under one resource group (Azure AI Foundry, Azure AI Search, Blob Storage). |
+| [azure-ai-foundry-project.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Azure AI Foundry project dashboard/hub overview. |
+| [azure-ai-search-overview.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | AI Search service overview (name, endpoint, pricing tier). |
+| [azure-ai-search-indexes.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | All three indexes (kb-256, kb-512, kb-1024) with document counts. |
+| [azure-blob-storage-container.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | academic-advising-docs container with 73 uploaded institutional PDFs. |
+| [azure-openai-deployment.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Deployed models: GPT-5-mini, text-embedding-3-small, GPT-4o. |
+| **VS Code — Python File Outputs** | |
+| [ingestion-summary-output.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Verified chunk counts per KB configuration (kb-256: 1,271 chunks, kb-512: 689 chunks, kb-1024: 438 chunks). |
+| [basic-rag-sample-query-output.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Sample query with grounded response and source citation. |
+| [basic-rag-validation-test.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Multiple test queries (GPA, attendance, award classification) showing consistent, correctly grounded responses. |
+| [retrieval-eval-run-log.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | 150 hybrid searches completed across kb-256, kb-512, and kb-1024 with zero errors. |
+| [retrieval-eval-progress.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Mid-run progress showing searches executing across configurations. |
+| [p5-scorer-output.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Precision@5 scores calculated per KB configuration. |
+| [ground-truth-resolution-output.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Ground-truth page references resolved and verified for the benchmark dataset. |
+| [benchmark-questions-sample.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Sample entries from the verified 50-question benchmark JSON. |
+| [retrieval-results-sample.png](PASTE_GOOGLE_DRIVE_LINK_HERE) | Sample entries from the retrieval evaluation results JSON. |
 
 
 ## Author
