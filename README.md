@@ -62,7 +62,7 @@ This research designs, implements, and evaluates an Agentic RAG system that grou
 - **Orchestration (planned):** Multi-agent architecture — Orchestrator, Retrieval, Profile, Validator, Notification agents
 - **HITL escalation (planned):** Azure Logic Apps
 
-## Current Status
+
 
 
 
