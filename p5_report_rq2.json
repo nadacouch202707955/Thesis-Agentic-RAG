@@ -1,0 +1,327 @@
+{
+  "kb-256": {
+    "overall_mean_p5": 0.528,
+    "overall_sd": 0.328,
+    "n_questions_scored": 50,
+    "page_tolerance_used": 1,
+    "note_null_page_questions": "Q001-Q032 used document-only matching (source_page was null)",
+    "breakdown_by_question_type": {
+      "factual_lookup": {
+        "mean": 0.42,
+        "sd": 0.289,
+        "n": 20
+      },
+      "numerical": {
+        "mean": 0.6,
+        "sd": 0.302,
+        "n": 23
+      },
+      "policy_interpretation": {
+        "mean": 0.68,
+        "sd": 0.46,
+        "n": 5
+      },
+      "multi_hop": {
+        "mean": 0.4,
+        "sd": 0.566,
+        "n": 2
+      }
+    },
+    "breakdown_by_difficulty": {
+      "easy": {
+        "mean": 0.518,
+        "sd": 0.267,
+        "n": 22
+      },
+      "medium": {
+        "mean": 0.487,
+        "sd": 0.351,
+        "n": 23
+      },
+      "hard": {
+        "mean": 0.76,
+        "sd": 0.434,
+        "n": 5
+      }
+    },
+    "worst_10_for_error_analysis": [
+      {
+        "id": "Q036",
+        "score": 0.0,
+        "question": "What is the email address for the Student Information Centre's Registration office?",
+        "expected_source": "Student-Handbook.pdf (page 7)"
+      },
+      {
+        "id": "Q039",
+        "score": 0.0,
+        "question": "What is the penalty for returning a library book late?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q041",
+        "score": 0.0,
+        "question": "What does the Academic Advising service involve for a Bahrain Polytechnic learner?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q045",
+        "score": 0.0,
+        "question": "What happens if a learner loses a library book?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q048",
+        "score": 0.0,
+        "question": "What are the eight Employability Skills defined by Bahrain Polytechnic?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q050",
+        "score": 0.0,
+        "question": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q008",
+        "score": 0.2,
+        "question": "What optional courses can a Marketing student choose from in Year 4, Semester 1?",
+        "expected_source": "Bachelor_of_Business__Marketing.pdf (page None)"
+      },
+      {
+        "id": "Q026",
+        "score": 0.2,
+        "question": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q029",
+        "score": 0.2,
+        "question": "When does Semester 2 of the 2025-2026 academic year begin?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q033",
+        "score": 0.2,
+        "question": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+        "expected_source": "Academic_Calendar.pdf (page 5)"
+      }
+    ]
+  },
+  "kb-512": {
+    "overall_mean_p5": 0.544,
+    "overall_sd": 0.355,
+    "n_questions_scored": 50,
+    "page_tolerance_used": 1,
+    "note_null_page_questions": "Q001-Q032 used document-only matching (source_page was null)",
+    "breakdown_by_question_type": {
+      "factual_lookup": {
+        "mean": 0.47,
+        "sd": 0.351,
+        "n": 20
+      },
+      "numerical": {
+        "mean": 0.609,
+        "sd": 0.338,
+        "n": 23
+      },
+      "policy_interpretation": {
+        "mean": 0.64,
+        "sd": 0.434,
+        "n": 5
+      },
+      "multi_hop": {
+        "mean": 0.3,
+        "sd": 0.424,
+        "n": 2
+      }
+    },
+    "breakdown_by_difficulty": {
+      "easy": {
+        "mean": 0.518,
+        "sd": 0.342,
+        "n": 22
+      },
+      "medium": {
+        "mean": 0.539,
+        "sd": 0.364,
+        "n": 23
+      },
+      "hard": {
+        "mean": 0.68,
+        "sd": 0.415,
+        "n": 5
+      }
+    },
+    "worst_10_for_error_analysis": [
+      {
+        "id": "Q036",
+        "score": 0.0,
+        "question": "What is the email address for the Student Information Centre's Registration office?",
+        "expected_source": "Student-Handbook.pdf (page 7)"
+      },
+      {
+        "id": "Q039",
+        "score": 0.0,
+        "question": "What is the penalty for returning a library book late?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q041",
+        "score": 0.0,
+        "question": "What does the Academic Advising service involve for a Bahrain Polytechnic learner?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q045",
+        "score": 0.0,
+        "question": "What happens if a learner loses a library book?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q046",
+        "score": 0.0,
+        "question": "Who should a learner contact for information about scholarships, and where are they located?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q048",
+        "score": 0.0,
+        "question": "What are the eight Employability Skills defined by Bahrain Polytechnic?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q050",
+        "score": 0.0,
+        "question": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q026",
+        "score": 0.2,
+        "question": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q027",
+        "score": 0.2,
+        "question": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q029",
+        "score": 0.2,
+        "question": "When does Semester 2 of the 2025-2026 academic year begin?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      }
+    ]
+  },
+  "kb-1024": {
+    "overall_mean_p5": 0.536,
+    "overall_sd": 0.319,
+    "n_questions_scored": 50,
+    "page_tolerance_used": 1,
+    "note_null_page_questions": "Q001-Q032 used document-only matching (source_page was null)",
+    "breakdown_by_question_type": {
+      "factual_lookup": {
+        "mean": 0.43,
+        "sd": 0.306,
+        "n": 20
+      },
+      "numerical": {
+        "mean": 0.626,
+        "sd": 0.278,
+        "n": 23
+      },
+      "policy_interpretation": {
+        "mean": 0.6,
+        "sd": 0.424,
+        "n": 5
+      },
+      "multi_hop": {
+        "mean": 0.4,
+        "sd": 0.566,
+        "n": 2
+      }
+    },
+    "breakdown_by_difficulty": {
+      "easy": {
+        "mean": 0.536,
+        "sd": 0.272,
+        "n": 22
+      },
+      "medium": {
+        "mean": 0.504,
+        "sd": 0.346,
+        "n": 23
+      },
+      "hard": {
+        "mean": 0.68,
+        "sd": 0.415,
+        "n": 5
+      }
+    },
+    "worst_10_for_error_analysis": [
+      {
+        "id": "Q039",
+        "score": 0.0,
+        "question": "What is the penalty for returning a library book late?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q041",
+        "score": 0.0,
+        "question": "What does the Academic Advising service involve for a Bahrain Polytechnic learner?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q045",
+        "score": 0.0,
+        "question": "What happens if a learner loses a library book?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q046",
+        "score": 0.0,
+        "question": "Who should a learner contact for information about scholarships, and where are they located?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q048",
+        "score": 0.0,
+        "question": "What are the eight Employability Skills defined by Bahrain Polytechnic?",
+        "expected_source": "Student-Handbook.pdf (page 2)"
+      },
+      {
+        "id": "Q050",
+        "score": 0.0,
+        "question": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+        "expected_source": "Student-Handbook.pdf (page 8)"
+      },
+      {
+        "id": "Q026",
+        "score": 0.2,
+        "question": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q029",
+        "score": 0.2,
+        "question": "When does Semester 2 of the 2025-2026 academic year begin?",
+        "expected_source": "Academic_Calendar.pdf (page None)"
+      },
+      {
+        "id": "Q036",
+        "score": 0.2,
+        "question": "What is the email address for the Student Information Centre's Registration office?",
+        "expected_source": "Student-Handbook.pdf (page 7)"
+      },
+      {
+        "id": "Q040",
+        "score": 0.2,
+        "question": "What are Bahrain Polytechnic's core values?",
+        "expected_source": "Student-Handbook.pdf (page 6)"
+      }
+    ]
+  },
+  "_excluded_questions": []
+}

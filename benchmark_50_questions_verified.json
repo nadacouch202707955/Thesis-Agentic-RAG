@@ -34,9 +34,7 @@
       "source_section": "Programme Code",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
-        1
-      ]
+      "source_page": null
     },
     {
       "id": "Q002",
@@ -46,9 +44,7 @@
       "source_section": "Programme Credits",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        1
-      ]
+      "source_page": null
     },
     {
       "id": "Q003",
@@ -58,9 +54,7 @@
       "source_section": "Programme Duration",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
-        1
-      ]
+      "source_page": null
     },
     {
       "id": "Q004",
@@ -70,9 +64,7 @@
       "source_section": "Entry and Selection",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        1
-      ]
+      "source_page": null
     },
     {
       "id": "Q005",
@@ -82,9 +74,7 @@
       "source_section": "Accreditation / External Approval Requirements",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        2
-      ]
+      "source_page": null
     },
     {
       "id": "Q006",
@@ -94,9 +84,7 @@
       "source_section": "Major Selection Criteria",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        1
-      ]
+      "source_page": null
     },
     {
       "id": "Q007",
@@ -106,9 +94,7 @@
       "source_section": "Year 3 / Semester 1",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        3
-      ]
+      "source_page": null
     },
     {
       "id": "Q008",
@@ -118,9 +104,7 @@
       "source_section": "Year 4 / Semester 1",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        4
-      ]
+      "source_page": null
     },
     {
       "id": "Q009",
@@ -130,9 +114,7 @@
       "source_section": "Year 4 / Semester 2",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        4
-      ]
+      "source_page": null
     },
     {
       "id": "Q010",
@@ -142,9 +124,7 @@
       "source_section": "Graduate Pathways and Destination - Employment",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
-        2
-      ]
+      "source_page": null
     },
     {
       "id": "Q011",
@@ -154,10 +134,7 @@
       "source_section": "3.2 Attendance Requirements",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        4,
-        10
-      ]
+      "source_page": null
     },
     {
       "id": "Q012",
@@ -167,10 +144,7 @@
       "source_section": "3.2 Attendance Requirements / 3.5 Attendance Records",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        4,
-        10
-      ]
+      "source_page": null
     },
     {
       "id": "Q013",
@@ -180,10 +154,7 @@
       "source_section": "5.6 Retention and Dismissal",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        5,
-        22
-      ]
+      "source_page": null
     },
     {
       "id": "Q014",
@@ -193,10 +164,7 @@
       "source_section": "5.6 Retention and Dismissal",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        5,
-        22
-      ]
+      "source_page": null
     },
     {
       "id": "Q015",
@@ -206,10 +174,7 @@
       "source_section": "5.6 Retention and Dismissal",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        5,
-        22
-      ]
+      "source_page": null
     },
     {
       "id": "Q016",
@@ -219,10 +184,7 @@
       "source_section": "4.3 Grading System",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        4,
-        16
-      ]
+      "source_page": null
     },
     {
       "id": "Q017",
@@ -232,10 +194,7 @@
       "source_section": "4.3 Grading System",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        4,
-        16
-      ]
+      "source_page": null
     },
     {
       "id": "Q018",
@@ -245,10 +204,7 @@
       "source_section": "4.4.3 Diploma",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        4,
-        16
-      ]
+      "source_page": null
     },
     {
       "id": "Q019",
@@ -258,10 +214,7 @@
       "source_section": "4.4.5 Bachelor Degree at NQF Level 8",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        4,
-        18
-      ]
+      "source_page": null
     },
     {
       "id": "Q020",
@@ -271,10 +224,7 @@
       "source_section": "5.3 Year Progression",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        5,
-        21
-      ]
+      "source_page": null
     },
     {
       "id": "Q021",
@@ -284,10 +234,7 @@
       "source_section": "5.3 Year Progression",
       "difficulty": "hard",
       "question_type": "policy_interpretation",
-      "source_page": [
-        5,
-        21
-      ]
+      "source_page": null
     },
     {
       "id": "Q022",
@@ -297,10 +244,7 @@
       "source_section": "Examinations and Assessment - Assessment Submission Extensions",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        2,
-        20
-      ]
+      "source_page": null
     },
     {
       "id": "Q023",
@@ -310,10 +254,7 @@
       "source_section": "Examinations and Assessment - Late Submissions, Resubmissions, and Resits",
       "difficulty": "medium",
       "question_type": "policy_interpretation",
-      "source_page": [
-        2,
-        20
-      ]
+      "source_page": null
     },
     {
       "id": "Q024",
@@ -323,10 +264,7 @@
       "source_section": "4.2 Determination of Award Classification",
       "difficulty": "hard",
       "question_type": "policy_interpretation",
-      "source_page": [
-        4,
-        15
-      ]
+      "source_page": null
     },
     {
       "id": "Q025",
@@ -336,10 +274,7 @@
       "source_section": "5.2 Workload",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        5,
-        20
-      ]
+      "source_page": null
     },
     {
       "id": "Q026",
@@ -349,9 +284,7 @@
       "source_section": "September 2025",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        2
-      ]
+      "source_page": null
     },
     {
       "id": "Q027",
@@ -361,9 +294,7 @@
       "source_section": "January 2026",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        3
-      ]
+      "source_page": null
     },
     {
       "id": "Q028",
@@ -373,9 +304,7 @@
       "source_section": "October 2025",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        3
-      ]
+      "source_page": null
     },
     {
       "id": "Q029",
@@ -385,9 +314,7 @@
       "source_section": "February 2026",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        4
-      ]
+      "source_page": null
     },
     {
       "id": "Q030",
@@ -397,9 +324,7 @@
       "source_section": "June 2026",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        5
-      ]
+      "source_page": null
     },
     {
       "id": "Q031",
@@ -409,10 +334,7 @@
       "source_section": "July 2026",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
-        1,
-        5
-      ]
+      "source_page": null
     },
     {
       "id": "Q032",
@@ -422,9 +344,7 @@
       "source_section": "October 2025",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        3
-      ]
+      "source_page": null
     },
     {
       "id": "Q033",
@@ -434,7 +354,8 @@
       "source_section": "August 2026",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
+      "source_page": 5,
+      "source_pages_all": [
         5
       ]
     },
@@ -446,7 +367,8 @@
       "source_section": "Classes normally run Sunday to Thursday",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
+      "source_page": 2,
+      "source_pages_all": [
         2
       ]
     },
@@ -458,14 +380,9 @@
       "source_section": "October 2025;4.2 Determination of Award Classification",
       "difficulty": "hard",
       "question_type": "multi_hop",
-      "source_page": [
-        [
-          3
-        ],
-        [
-          4,
-          15
-        ]
+      "source_page": 3,
+      "source_pages_all": [
+        3
       ]
     },
     {
@@ -476,8 +393,8 @@
       "source_section": "Useful Contacts",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
-        2,
+      "source_page": 7,
+      "source_pages_all": [
         7
       ]
     },
@@ -489,8 +406,8 @@
       "source_section": "Health and Wellness Centre",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
-        2,
+      "source_page": 13,
+      "source_pages_all": [
         13
       ]
     },
@@ -502,8 +419,8 @@
       "source_section": "Library Services",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        2,
+      "source_page": 15,
+      "source_pages_all": [
         15
       ]
     },
@@ -515,9 +432,9 @@
       "source_section": "Library Services",
       "difficulty": "medium",
       "question_type": "numerical",
-      "source_page": [
-        2,
-        15
+      "source_page": 2,
+      "source_pages_all": [
+        2
       ]
     },
     {
@@ -528,7 +445,8 @@
       "source_section": "Our core values are Excellence",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
+      "source_page": 6,
+      "source_pages_all": [
         6
       ]
     },
@@ -540,9 +458,9 @@
       "source_section": "Academic Advising",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        8,
-        22
+      "source_page": 8,
+      "source_pages_all": [
+        8
       ]
     },
     {
@@ -553,8 +471,8 @@
       "source_section": "Academic Facilities and Resources",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        2,
+      "source_page": 10,
+      "source_pages_all": [
         10
       ]
     },
@@ -566,7 +484,8 @@
       "source_section": "Academic Misconduct",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
+      "source_page": 21,
+      "source_pages_all": [
         21
       ]
     },
@@ -578,7 +497,8 @@
       "source_section": "Appeals to Faculty Appeal Committee",
       "difficulty": "hard",
       "question_type": "policy_interpretation",
-      "source_page": [
+      "source_page": 22,
+      "source_pages_all": [
         22
       ]
     },
@@ -590,9 +510,9 @@
       "source_section": "Library Services",
       "difficulty": "medium",
       "question_type": "policy_interpretation",
-      "source_page": [
-        2,
-        15
+      "source_page": 2,
+      "source_pages_all": [
+        2
       ]
     },
     {
@@ -603,10 +523,11 @@
       "source_section": "Scholarships and Fees",
       "difficulty": "easy",
       "question_type": "factual_lookup",
-      "source_page": [
+      "source_page": 2,
+      "source_pages_all": [
         2,
         17,
-        23
+        32
       ]
     },
     {
@@ -617,7 +538,8 @@
       "source_section": "Polytechnic security staff are available",
       "difficulty": "easy",
       "question_type": "numerical",
-      "source_page": [
+      "source_page": 12,
+      "source_pages_all": [
         12
       ]
     },
@@ -629,7 +551,8 @@
       "source_section": "Definitions of Employability Skills at Bahrain Polytechnic",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
+      "source_page": 2,
+      "source_pages_all": [
         2,
         8
       ]
@@ -642,9 +565,9 @@
       "source_section": "Learning Support",
       "difficulty": "medium",
       "question_type": "factual_lookup",
-      "source_page": [
-        16,
-        17
+      "source_page": 16,
+      "source_pages_all": [
+        16
       ]
     },
     {
@@ -655,13 +578,9 @@
       "source_section": "Counseling; Academic Advising; Mentoring",
       "difficulty": "hard",
       "question_type": "multi_hop",
-      "source_page": [
-        2,
-        8,
-        17,
-        18,
-        19,
-        22
+      "source_page": 8,
+      "source_pages_all": [
+        8
       ]
     }
   ]
