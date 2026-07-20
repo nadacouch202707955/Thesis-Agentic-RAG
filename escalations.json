@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-07-20T20:38:58",
+    "student_id": "anonymous",
+    "query": "What are the academic misconduct consequences for students at Bahrain Polytechnic?",
+    "ai_draft_answer": "",
+    "confidence_score": 0.0,
+    "reason": "Empty response generated",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.21",
+      "Academic-Regulations.pdf p.7",
+      "Academic-Regulations.pdf p.7",
+      "Academic-Regulations.pdf p.22",
+      "Academic-Regulations.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-20T21:29:29",
+    "student_id": "anonymous",
+    "query": "py orchestrator_agent.py",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.\n\n[Source: Apprenticeship Programme.pdf, Page 7]\n[Source: Apprenticeship Programme.pdf, Page 9]\n[Source: Associate Degree in International Logistics Management.pdf, Page 2]\n[Source: Bachelor of International Logistics Management.pdf, Page 2]\n[Source: Bachelor of Science in Artificial Intelligence and Robotics Software.pdf, Page 1]",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Apprenticeship Programme.pdf p.7",
+      "Associate Degree in International Logistics Management.pdf p.2",
+      "Apprenticeship Programme.pdf p.9",
+      "Bachelor of International Logistics Management.pdf p.2",
+      "Bachelor of Science in Artificial Intelligence and Robotics Software.pdf p.1"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-20T21:30:00",
+    "student_id": "anonymous",
+    "query": "What are the academic misconduct consequences for students at Bahrain Polytechnic?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.\n\n[Source: Student-Handbook.pdf, Page 21]\n[Source: Academic-Regulations.pdf, Page 22]",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.21",
+      "Academic-Regulations.pdf p.7",
+      "Academic-Regulations.pdf p.7",
+      "Academic-Regulations.pdf p.22",
+      "Academic-Regulations.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-20T21:31:53",
+    "student_id": "anonymous",
+    "query": "raw_response = gpt_response.choices[0].message.content or \"\"",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.9",
+      "Academic-Regulations.pdf p.28",
+      "Bachelor of Web Media.pdf p.1",
+      "Postgraduate Programmes by Research.pdf p.7"
+    ],
+    "status": "pending_advisor_review"
+  }
+]
