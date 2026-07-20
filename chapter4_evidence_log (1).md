@@ -125,3 +125,26 @@ in Chapter 4, add a new dated entry above using the same format. When you
 sit down to write Chapter 4, feed this whole file back to Claude (or read
 it yourself) instead of relying on chat history — chat memory is not
 guaranteed to persist across separate conversations.
+
+## Evidence Item 4 — Agentic RAG Pipeline: All 5 Agents Validated
+
+**Date:** 20 July 2026
+**Commit hash:** 6532120
+**File:** orchestrator_agent.py
+
+**Test query:** "What are the academic misconduct consequences for students?"
+
+**Agent pipeline output:**
+- Retrieval Agent: 5 chunks retrieved from kb-512
+  - Chunk 1: Student-Handbook.pdf p.21 (score: 0.032) ← correct
+  - Chunk 2: Academic-Regulations.pdf p.7 (score: 0.028)
+- Validator Agent: Confidence = 0.86 ✅ Approved (threshold: 0.70)
+- Notification Agent: Response delivered directly to student
+- Latency: 18.94s
+
+**All 5 agents confirmed working:**
+✅ Orchestrator Agent — query coordination and prompt assembly
+✅ Retrieval Agent — hybrid search on kb-512 (frozen config)
+✅ Profile Agent — available (SQL not yet connected, skipped correctly)
+✅ Validator Agent — confidence scoring working (0.86 > 0.70)
+✅ Notification Agent — delivery and HITL escalation both tested

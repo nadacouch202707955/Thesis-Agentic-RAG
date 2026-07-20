@@ -1,0 +1,25 @@
+{
+  "index": "kb-512",
+  "top_k": 5,
+  "summary": {
+    "vector_only": {
+      "mean_document_recall": 0.6,
+      "sd": 0.495,
+      "n": 50,
+      "hits": 30
+    },
+    "keyword_only": {
+      "mean_document_recall": 0.6,
+      "sd": 0.495,
+      "n": 50,
+      "hits": 30
+    },
+    "hybrid": {
+      "mean_document_recall": 0.6,
+      "sd": 0.495,
+      "n": 50,
+      "hits": 30
+    }
+  },
+  "note": "Document-level recall (hit=1 if correct PDF in top-5)"
+}
