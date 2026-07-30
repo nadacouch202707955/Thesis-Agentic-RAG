@@ -3,4 +3,3 @@ __pycache__/
 *.pyc
 .vscode/
 venv311/
-student_dataset.csv
