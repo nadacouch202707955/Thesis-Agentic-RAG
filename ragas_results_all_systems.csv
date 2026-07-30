@@ -1,0 +1,201 @@
+system,id,question_type,difficulty,faithfulness,answer_relevance,latency,note
+system1_gpt_only,Q001,factual_lookup,easy,0.0,0.0,7.08,faithfulness=0: no retrieval
+system1_gpt_only,Q002,numerical,easy,0.0,0.0,4.5,faithfulness=0: no retrieval
+system1_gpt_only,Q003,factual_lookup,easy,0.0,0.0,4.35,faithfulness=0: no retrieval
+system1_gpt_only,Q004,factual_lookup,medium,0.0,0.0,6.12,faithfulness=0: no retrieval
+system1_gpt_only,Q005,factual_lookup,medium,0.0,0.0,7.46,faithfulness=0: no retrieval
+system1_gpt_only,Q006,factual_lookup,medium,0.0,0.0,4.13,faithfulness=0: no retrieval
+system1_gpt_only,Q007,factual_lookup,medium,0.0,0.0,4.22,faithfulness=0: no retrieval
+system1_gpt_only,Q008,factual_lookup,medium,0.0,0.0,4.16,faithfulness=0: no retrieval
+system1_gpt_only,Q009,factual_lookup,medium,0.0,0.0,7.13,faithfulness=0: no retrieval
+system1_gpt_only,Q010,factual_lookup,easy,0.0,0.8352,3.97,faithfulness=0: no retrieval
+system1_gpt_only,Q011,numerical,easy,0.0,0.0,3.39,faithfulness=0: no retrieval
+system1_gpt_only,Q012,factual_lookup,medium,0.0,0.0,4.73,faithfulness=0: no retrieval
+system1_gpt_only,Q013,numerical,easy,0.0,0.0,4.98,faithfulness=0: no retrieval
+system1_gpt_only,Q014,numerical,easy,0.0,0.0,4.28,faithfulness=0: no retrieval
+system1_gpt_only,Q015,numerical,easy,0.0,0.0,6.54,faithfulness=0: no retrieval
+system1_gpt_only,Q016,numerical,easy,0.0,0.0,3.86,faithfulness=0: no retrieval
+system1_gpt_only,Q017,numerical,medium,0.0,0.0,3.72,faithfulness=0: no retrieval
+system1_gpt_only,Q018,numerical,medium,0.0,0.0,4.0,faithfulness=0: no retrieval
+system1_gpt_only,Q019,numerical,medium,0.0,0.0,3.84,faithfulness=0: no retrieval
+system1_gpt_only,Q020,numerical,medium,0.0,0.0,4.06,faithfulness=0: no retrieval
+system1_gpt_only,Q021,policy_interpretation,hard,0.0,0.9211,7.37,faithfulness=0: no retrieval
+system1_gpt_only,Q022,numerical,medium,0.0,0.0,6.11,faithfulness=0: no retrieval
+system1_gpt_only,Q023,policy_interpretation,medium,0.0,0.0,5.13,faithfulness=0: no retrieval
+system1_gpt_only,Q024,policy_interpretation,hard,0.0,0.0,5.41,faithfulness=0: no retrieval
+system1_gpt_only,Q025,numerical,medium,0.0,0.8181,4.18,faithfulness=0: no retrieval
+system1_gpt_only,Q026,numerical,easy,0.0,0.0,4.08,faithfulness=0: no retrieval
+system1_gpt_only,Q027,numerical,easy,0.0,0.0,5.12,faithfulness=0: no retrieval
+system1_gpt_only,Q028,numerical,easy,0.0,0.0,4.14,faithfulness=0: no retrieval
+system1_gpt_only,Q029,numerical,easy,0.0,0.0,4.29,faithfulness=0: no retrieval
+system1_gpt_only,Q030,numerical,easy,0.0,0.0,4.26,faithfulness=0: no retrieval
+system1_gpt_only,Q031,numerical,easy,0.0,0.0,4.14,faithfulness=0: no retrieval
+system1_gpt_only,Q032,numerical,medium,0.0,0.0,3.97,faithfulness=0: no retrieval
+system1_gpt_only,Q033,numerical,easy,0.0,0.0,3.62,faithfulness=0: no retrieval
+system1_gpt_only,Q034,factual_lookup,easy,0.0,0.0,3.65,faithfulness=0: no retrieval
+system1_gpt_only,Q035,multi_hop,hard,0.0,0.0,7.21,faithfulness=0: no retrieval
+system1_gpt_only,Q036,factual_lookup,easy,0.0,0.0,3.21,faithfulness=0: no retrieval
+system1_gpt_only,Q037,factual_lookup,easy,0.0,0.0,2.66,faithfulness=0: no retrieval
+system1_gpt_only,Q038,numerical,medium,0.0,0.0,3.5,faithfulness=0: no retrieval
+system1_gpt_only,Q039,numerical,medium,0.0,0.9849,6.12,faithfulness=0: no retrieval
+system1_gpt_only,Q040,factual_lookup,easy,0.0,0.0,3.84,faithfulness=0: no retrieval
+system1_gpt_only,Q041,factual_lookup,medium,0.0,0.8979,4.99,faithfulness=0: no retrieval
+system1_gpt_only,Q042,factual_lookup,medium,0.0,0.0,5.58,faithfulness=0: no retrieval
+system1_gpt_only,Q043,factual_lookup,medium,0.0,0.0,3.9,faithfulness=0: no retrieval
+system1_gpt_only,Q044,policy_interpretation,hard,0.0,0.0,7.49,faithfulness=0: no retrieval
+system1_gpt_only,Q045,policy_interpretation,medium,0.0,0.8816,5.56,faithfulness=0: no retrieval
+system1_gpt_only,Q046,factual_lookup,easy,0.0,0.8199,4.18,faithfulness=0: no retrieval
+system1_gpt_only,Q047,numerical,easy,0.0,0.0,2.69,faithfulness=0: no retrieval
+system1_gpt_only,Q048,factual_lookup,medium,0.0,0.9825,4.69,faithfulness=0: no retrieval
+system1_gpt_only,Q049,factual_lookup,medium,0.0,0.7828,5.27,faithfulness=0: no retrieval
+system1_gpt_only,Q050,multi_hop,hard,0.0,0.0,7.06,faithfulness=0: no retrieval
+system2_basic_rag,Q001,factual_lookup,easy,1.0,1.0,4.17,
+system2_basic_rag,Q002,numerical,easy,1.0,0.9697,3.67,
+system2_basic_rag,Q003,factual_lookup,easy,1.0,1.0,4.03,
+system2_basic_rag,Q004,factual_lookup,medium,1.0,0.8451,4.53,
+system2_basic_rag,Q005,factual_lookup,medium,1.0,0.9046,4.49,
+system2_basic_rag,Q006,factual_lookup,medium,1.0,0.9758,3.44,
+system2_basic_rag,Q007,factual_lookup,medium,1.0,0.9479,3.9,
+system2_basic_rag,Q008,factual_lookup,medium,0.0,0.9973,3.75,
+system2_basic_rag,Q009,factual_lookup,medium,1.0,0.9017,4.37,
+system2_basic_rag,Q010,factual_lookup,easy,1.0,0.9091,4.1,
+system2_basic_rag,Q011,numerical,easy,1.0,1.0,4.52,
+system2_basic_rag,Q012,factual_lookup,medium,1.0,0.4567,5.46,
+system2_basic_rag,Q013,numerical,easy,1.0,1.0,3.52,
+system2_basic_rag,Q014,numerical,easy,0.0,0.0,4.65,
+system2_basic_rag,Q015,numerical,easy,1.0,0.9115,3.41,
+system2_basic_rag,Q016,numerical,easy,1.0,0.9168,3.6,
+system2_basic_rag,Q017,numerical,medium,1.0,0.5701,4.71,
+system2_basic_rag,Q018,numerical,medium,1.0,0.9442,4.77,
+system2_basic_rag,Q019,numerical,medium,1.0,0.7197,4.39,
+system2_basic_rag,Q020,numerical,medium,0.7692,1.0,5.23,
+system2_basic_rag,Q021,policy_interpretation,hard,1.0,0.8918,6.24,
+system2_basic_rag,Q022,numerical,medium,1.0,0.7003,5.04,
+system2_basic_rag,Q023,policy_interpretation,medium,0.25,1.0,5.28,
+system2_basic_rag,Q024,policy_interpretation,hard,0.8571,0.8967,5.75,
+system2_basic_rag,Q025,numerical,medium,1.0,0.7444,5.62,
+system2_basic_rag,Q026,numerical,easy,0.0,0.0,4.23,
+system2_basic_rag,Q027,numerical,easy,1.0,1.0,4.36,
+system2_basic_rag,Q028,numerical,easy,1.0,0.9871,4.6,
+system2_basic_rag,Q029,numerical,easy,1.0,1.0,4.29,
+system2_basic_rag,Q030,numerical,easy,0.5,0.0,4.0,
+system2_basic_rag,Q031,numerical,easy,1.0,0.9298,4.97,
+system2_basic_rag,Q032,numerical,medium,1.0,1.0,5.55,
+system2_basic_rag,Q033,numerical,easy,0.5,0.0,4.1,
+system2_basic_rag,Q034,factual_lookup,easy,1.0,0.8878,4.07,
+system2_basic_rag,Q035,multi_hop,hard,0.4,0.7471,6.0,
+system2_basic_rag,Q036,factual_lookup,easy,1.0,1.0,4.94,
+system2_basic_rag,Q037,factual_lookup,easy,1.0,0.6913,4.39,
+system2_basic_rag,Q038,numerical,medium,1.0,0.9588,4.55,
+system2_basic_rag,Q039,numerical,medium,1.0,0.8717,4.65,
+system2_basic_rag,Q040,factual_lookup,easy,0.5,0.0,4.46,
+system2_basic_rag,Q041,factual_lookup,medium,1.0,0.9164,5.23,
+system2_basic_rag,Q042,factual_lookup,medium,1.0,0.9596,4.54,
+system2_basic_rag,Q043,factual_lookup,medium,1.0,0.978,5.13,
+system2_basic_rag,Q044,policy_interpretation,hard,1.0,0.7282,6.24,
+system2_basic_rag,Q045,policy_interpretation,medium,1.0,0.844,4.32,
+system2_basic_rag,Q046,factual_lookup,easy,1.0,0.9103,4.69,
+system2_basic_rag,Q047,numerical,easy,1.0,1.0,4.38,
+system2_basic_rag,Q048,factual_lookup,medium,1.0,1.0,6.73,
+system2_basic_rag,Q049,factual_lookup,medium,0.9091,0.7686,4.69,
+system2_basic_rag,Q050,multi_hop,hard,0.75,0.6051,4.6,
+system3_single_agent,Q001,factual_lookup,easy,1.0,1.0,6.57,
+system3_single_agent,Q002,numerical,easy,1.0,0.983,6.14,
+system3_single_agent,Q003,factual_lookup,easy,1.0,1.0,6.19,
+system3_single_agent,Q004,factual_lookup,medium,1.0,0.9215,7.09,
+system3_single_agent,Q005,factual_lookup,medium,1.0,0.849,800.01,
+system3_single_agent,Q006,factual_lookup,medium,1.0,0.9758,5.39,
+system3_single_agent,Q007,factual_lookup,medium,1.0,0.9455,5.96,
+system3_single_agent,Q008,factual_lookup,medium,0.0,0.9651,7.74,
+system3_single_agent,Q009,factual_lookup,medium,1.0,0.9013,9.84,
+system3_single_agent,Q010,factual_lookup,easy,1.0,0.8101,7.08,
+system3_single_agent,Q011,numerical,easy,1.0,1.0,6.68,
+system3_single_agent,Q012,factual_lookup,medium,1.0,0.7939,6.19,
+system3_single_agent,Q013,numerical,easy,1.0,1.0,6.17,
+system3_single_agent,Q014,numerical,easy,0.0,0.0,7.03,
+system3_single_agent,Q015,numerical,easy,1.0,0.8691,7.42,
+system3_single_agent,Q016,numerical,easy,1.0,0.9575,6.31,
+system3_single_agent,Q017,numerical,medium,1.0,0.6583,6.78,
+system3_single_agent,Q018,numerical,medium,1.0,0.9,8.02,
+system3_single_agent,Q019,numerical,medium,1.0,0.7231,6.09,
+system3_single_agent,Q020,numerical,medium,0.0,0.0,0,"error: ('Connection aborted.', ConnectionResetError(10054, 'An exis"
+system3_single_agent,Q021,policy_interpretation,hard,1.0,1.0,10.26,
+system3_single_agent,Q022,numerical,medium,1.0,0.7118,8.83,
+system3_single_agent,Q023,policy_interpretation,medium,1.0,1.0,10.15,
+system3_single_agent,Q024,policy_interpretation,hard,1.0,0.8187,12.08,
+system3_single_agent,Q025,numerical,medium,1.0,0.8638,8.23,
+system3_single_agent,Q026,numerical,easy,1.0,0.0,8.09,
+system3_single_agent,Q027,numerical,easy,1.0,1.0,8.21,
+system3_single_agent,Q028,numerical,easy,1.0,0.987,8.02,
+system3_single_agent,Q029,numerical,easy,1.0,1.0,9.02,
+system3_single_agent,Q030,numerical,easy,0.5,0.9877,6.83,
+system3_single_agent,Q031,numerical,easy,1.0,0.9396,6.9,
+system3_single_agent,Q032,numerical,medium,1.0,1.0,8.74,
+system3_single_agent,Q033,numerical,easy,0.5,0.0,7.17,
+system3_single_agent,Q034,factual_lookup,easy,1.0,0.934,5.92,
+system3_single_agent,Q035,multi_hop,hard,0.6667,0.7533,6.35,
+system3_single_agent,Q036,factual_lookup,easy,0.5,0.5154,6.99,
+system3_single_agent,Q037,factual_lookup,easy,1.0,0.8956,6.8,
+system3_single_agent,Q038,numerical,medium,1.0,0.9533,6.52,
+system3_single_agent,Q039,numerical,medium,1.0,0.8074,5.36,
+system3_single_agent,Q040,factual_lookup,easy,0.0,0.0,6.18,
+system3_single_agent,Q041,factual_lookup,medium,1.0,0.9164,11.1,
+system3_single_agent,Q042,factual_lookup,medium,1.0,0.9696,7.0,
+system3_single_agent,Q043,factual_lookup,medium,1.0,0.978,6.27,
+system3_single_agent,Q044,policy_interpretation,hard,0.9,0.9417,6.9,
+system3_single_agent,Q045,policy_interpretation,medium,1.0,0.7918,6.89,
+system3_single_agent,Q046,factual_lookup,easy,1.0,0.8673,5.67,
+system3_single_agent,Q047,numerical,easy,1.0,0.9644,5.78,
+system3_single_agent,Q048,factual_lookup,medium,1.0,1.0,7.71,
+system3_single_agent,Q049,factual_lookup,medium,1.0,0.7817,7.08,
+system3_single_agent,Q050,multi_hop,hard,0.0,0.0,5.51,
+system4_agentic_rag,Q001,factual_lookup,easy,1.0,1.0,7.42,
+system4_agentic_rag,Q002,numerical,easy,0.0,0.0,6.41,
+system4_agentic_rag,Q003,factual_lookup,easy,1.0,1.0,5.47,
+system4_agentic_rag,Q004,factual_lookup,medium,1.0,0.8534,7.11,
+system4_agentic_rag,Q005,factual_lookup,medium,1.0,0.8509,6.48,
+system4_agentic_rag,Q006,factual_lookup,medium,1.0,0.9758,9.86,
+system4_agentic_rag,Q007,factual_lookup,medium,1.0,0.9455,7.43,
+system4_agentic_rag,Q008,factual_lookup,medium,0.0,0.9499,6.26,
+system4_agentic_rag,Q009,factual_lookup,medium,1.0,0.8305,6.79,
+system4_agentic_rag,Q010,factual_lookup,easy,1.0,0.909,6.17,
+system4_agentic_rag,Q011,numerical,easy,1.0,1.0,8.84,
+system4_agentic_rag,Q012,factual_lookup,medium,1.0,0.4241,6.9,
+system4_agentic_rag,Q013,numerical,easy,1.0,1.0,7.11,
+system4_agentic_rag,Q014,numerical,easy,0.0,0.0,5.66,
+system4_agentic_rag,Q015,numerical,easy,1.0,0.9108,6.17,
+system4_agentic_rag,Q016,numerical,easy,1.0,0.9903,6.08,
+system4_agentic_rag,Q017,numerical,medium,1.0,0.5699,10.68,
+system4_agentic_rag,Q018,numerical,medium,1.0,0.9349,5.97,
+system4_agentic_rag,Q019,numerical,medium,0.6667,0.7184,6.49,
+system4_agentic_rag,Q020,numerical,medium,1.0,0.8273,5.68,
+system4_agentic_rag,Q021,policy_interpretation,hard,0.75,0.9831,6.71,
+system4_agentic_rag,Q022,numerical,medium,1.0,0.7295,12.13,
+system4_agentic_rag,Q023,policy_interpretation,medium,0.5,0.9621,6.4,
+system4_agentic_rag,Q024,policy_interpretation,hard,0.8571,0.9651,8.02,
+system4_agentic_rag,Q025,numerical,medium,1.0,0.8933,6.63,
+system4_agentic_rag,Q026,numerical,easy,0.0,0.0,5.86,
+system4_agentic_rag,Q027,numerical,easy,0.0,0.0,5.78,
+system4_agentic_rag,Q028,numerical,easy,1.0,0.9871,5.67,
+system4_agentic_rag,Q029,numerical,easy,0.0,0.0,5.87,
+system4_agentic_rag,Q030,numerical,easy,0.0,0.0,5.37,
+system4_agentic_rag,Q031,numerical,easy,1.0,0.9233,6.05,
+system4_agentic_rag,Q032,numerical,medium,1.0,1.0,7.11,
+system4_agentic_rag,Q033,numerical,easy,0.0,0.0,6.19,
+system4_agentic_rag,Q034,factual_lookup,easy,1.0,0.8933,5.85,
+system4_agentic_rag,Q035,multi_hop,hard,0.8,0.7801,7.25,
+system4_agentic_rag,Q036,factual_lookup,easy,0.5,0.8417,6.69,
+system4_agentic_rag,Q037,factual_lookup,easy,1.0,0.8956,5.57,
+system4_agentic_rag,Q038,numerical,medium,1.0,0.8282,6.66,
+system4_agentic_rag,Q039,numerical,medium,0.0,0.0,6.59,
+system4_agentic_rag,Q040,factual_lookup,easy,0.0,0.0,5.79,
+system4_agentic_rag,Q041,factual_lookup,medium,1.0,0.9094,7.21,
+system4_agentic_rag,Q042,factual_lookup,medium,1.0,0.9696,7.0,
+system4_agentic_rag,Q043,factual_lookup,medium,1.0,0.978,6.59,
+system4_agentic_rag,Q044,policy_interpretation,hard,1.0,0.7556,9.67,
+system4_agentic_rag,Q045,policy_interpretation,medium,0.0,0.0,7.66,
+system4_agentic_rag,Q046,factual_lookup,easy,0.75,0.9431,7.19,
+system4_agentic_rag,Q047,numerical,easy,1.0,0.9644,5.14,
+system4_agentic_rag,Q048,factual_lookup,medium,1.0,1.0,6.48,
+system4_agentic_rag,Q049,factual_lookup,medium,0.8235,0.919,6.48,
+system4_agentic_rag,Q050,multi_hop,hard,0.0,0.0,6.62,

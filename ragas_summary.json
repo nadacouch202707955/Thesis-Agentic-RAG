@@ -1,0 +1,30 @@
+{
+  "system1_gpt_only": {
+    "faithfulness_mean": 0.0,
+    "faithfulness_sd": 0.0,
+    "answer_relevance_mean": 0.1585,
+    "answer_relevance_sd": 0.343,
+    "n": 50
+  },
+  "system2_basic_rag": {
+    "faithfulness_mean": 0.8687,
+    "faithfulness_sd": 0.2841,
+    "answer_relevance_mean": 0.7997,
+    "answer_relevance_sd": 0.2971,
+    "n": 50
+  },
+  "system3_single_agent": {
+    "faithfulness_mean": 0.8613,
+    "faithfulness_sd": 0.3165,
+    "answer_relevance_mean": 0.7926,
+    "answer_relevance_sd": 0.3131,
+    "n": 50
+  },
+  "system4_agentic_rag": {
+    "faithfulness_mean": 0.7129,
+    "faithfulness_sd": 0.4216,
+    "answer_relevance_mean": 0.6962,
+    "answer_relevance_sd": 0.3889,
+    "n": 50
+  }
+}

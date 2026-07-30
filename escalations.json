@@ -1,65 +1,689 @@
 [
   {
-    "timestamp": "2026-07-20T20:38:58",
+    "timestamp": "2026-07-28T21:19:34",
     "student_id": "anonymous",
-    "query": "What are the academic misconduct consequences for students at Bahrain Polytechnic?",
-    "ai_draft_answer": "",
-    "confidence_score": 0.0,
-    "reason": "Empty response generated",
+    "query": "What is the minimum GPA required to maintain good academic standing?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
     "retrieved_sources": [
-      "Student-Handbook.pdf p.21",
-      "Academic-Regulations.pdf p.7",
-      "Academic-Regulations.pdf p.7",
       "Academic-Regulations.pdf p.22",
-      "Academic-Regulations.pdf p.4"
-    ],
-    "status": "pending_advisor_review"
-  },
-  {
-    "timestamp": "2026-07-20T21:29:29",
-    "student_id": "anonymous",
-    "query": "py orchestrator_agent.py",
-    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.\n\n[Source: Apprenticeship Programme.pdf, Page 7]\n[Source: Apprenticeship Programme.pdf, Page 9]\n[Source: Associate Degree in International Logistics Management.pdf, Page 2]\n[Source: Bachelor of International Logistics Management.pdf, Page 2]\n[Source: Bachelor of Science in Artificial Intelligence and Robotics Software.pdf, Page 1]",
-    "confidence_score": 0.4,
-    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
-    "retrieved_sources": [
-      "Apprenticeship Programme.pdf p.7",
-      "Associate Degree in International Logistics Management.pdf p.2",
-      "Apprenticeship Programme.pdf p.9",
-      "Bachelor of International Logistics Management.pdf p.2",
-      "Bachelor of Science in Artificial Intelligence and Robotics Software.pdf p.1"
-    ],
-    "status": "pending_advisor_review"
-  },
-  {
-    "timestamp": "2026-07-20T21:30:00",
-    "student_id": "anonymous",
-    "query": "What are the academic misconduct consequences for students at Bahrain Polytechnic?",
-    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.\n\n[Source: Student-Handbook.pdf, Page 21]\n[Source: Academic-Regulations.pdf, Page 22]",
-    "confidence_score": 0.4,
-    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
-    "retrieved_sources": [
-      "Student-Handbook.pdf p.21",
-      "Academic-Regulations.pdf p.7",
-      "Academic-Regulations.pdf p.7",
-      "Academic-Regulations.pdf p.22",
-      "Academic-Regulations.pdf p.4"
-    ],
-    "status": "pending_advisor_review"
-  },
-  {
-    "timestamp": "2026-07-20T21:31:53",
-    "student_id": "anonymous",
-    "query": "raw_response = gpt_response.choices[0].message.content or \"\"",
-    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.\nPlease consult your academic advisor directly.",
-    "confidence_score": 0.4,
-    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
-    "retrieved_sources": [
       "Academic-Regulations.pdf p.15",
-      "Academic-Regulations.pdf p.9",
-      "Academic-Regulations.pdf p.28",
-      "Bachelor of Web Media.pdf p.1",
-      "Postgraduate Programmes by Research.pdf p.7"
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.18",
+      "Academic-Regulations.pdf p.19"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:19:39",
+    "student_id": "anonymous",
+    "query": "When does semester 2 registration open?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Diploma in Film and Animation.pdf p.2",
+      "Diploma in Interactive Design.pdf p.3",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2",
+      "Academic Calendar.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:35:06",
+    "student_id": "anonymous",
+    "query": "What is the minimum CGPA required for retention in Master's and Doctoral Degree programmes?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.19",
+      "School of Business Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.18"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:36:27",
+    "student_id": "anonymous",
+    "query": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Student-Handbook.pdf p.24",
+      "Diploma in Film and Animation.pdf p.2",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:36:34",
+    "student_id": "anonymous",
+    "query": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+    "ai_draft_answer": "The last day of Semester 1 (2025/2026) for attendance requirements is January 8, 2026. \n\n[Source: Academic Calendar.pdf, Page 3]",
+    "confidence_score": 0.633,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:36:53",
+    "student_id": "anonymous",
+    "query": "When is the Assessment Week scheduled for the end of Semester 2 (2025/2026)?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:37:12",
+    "student_id": "anonymous",
+    "query": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Repeat exam schedules are not explicitly mentioned in the retrieved chunks. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Academic-Regulations.pdf p.27"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T21:37:59",
+    "student_id": "anonymous",
+    "query": "What are Bahrain Polytechnic's core values?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.2",
+      "Student-Handbook.pdf p.5",
+      "Student-Handbook.pdf p.4",
+      "Student-Handbook.pdf p.19",
+      "Student-Handbook.pdf p.8"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T22:50:11",
+    "student_id": "anonymous",
+    "query": "What are the academic misconduct consequences?",
+    "ai_draft_answer": "The consequences of academic misconduct at Bahrain Polytechnic are as follows:\n\n1. **Dismissal for Violations of Academic Integrity:** Learners who fail to adhere to the standards of academic integrity may be dismissed from the Polytechnic, as determined by the Assessment Board of Enquiry [Source: Academic-Regulations.pdf, Page 22].\n\n2. **Re-registration After Dismissal:** Learners dismissed due to academic misconduct may be allowed to re-register, but only after the period of penalty is lifted [Source: Academic-Regulations.pdf, Page 22].\n\nAdditionally, it is important to note specific types of academic misconduct, such as plagiarism, cheating, collusion, fabrication, fraud, and others, that could lead to these consequences [Source: Student-Handbook.pdf, Page 21].\n\nFor more information or personalized guidance, please consult your academic advisor.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'please consult'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.21",
+      "Academic-Regulations.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T22:50:15",
+    "student_id": "anonymous",
+    "query": "What is the minimum GPA required to maintain good academic standing?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.18",
+      "Academic-Regulations.pdf p.19"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T22:50:20",
+    "student_id": "anonymous",
+    "query": "When does semester 2 registration open?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this.  \nPlease consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Diploma in Film and Animation.pdf p.2",
+      "Diploma in Interactive Design.pdf p.3",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2",
+      "Academic Calendar.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T23:53:50",
+    "student_id": "anonymous",
+    "query": "What is the minimum CGPA required for retention in Master's and Doctoral Degree programmes?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.19",
+      "School of Business Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.18"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T23:57:32",
+    "student_id": "anonymous",
+    "query": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Student-Handbook.pdf p.24",
+      "Diploma in Film and Animation.pdf p.2",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T23:57:56",
+    "student_id": "anonymous",
+    "query": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+    "ai_draft_answer": "The last day of Semester 1 (2025/2026) for attendance requirements is **8 January 2026**. \n\n[Source: Academic Calendar.pdf, Page 3]",
+    "confidence_score": 0.633,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T23:58:56",
+    "student_id": "anonymous",
+    "query": "When is the Assessment Week scheduled for the end of Semester 2 (2025/2026)?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-28T23:59:55",
+    "student_id": "anonymous",
+    "query": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Academic-Regulations.pdf p.27"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:00:37",
+    "student_id": "anonymous",
+    "query": "A student's course was withdrawn for excessive absence. Based on both the Academic Regulations and the Academic Calendar, by what date in Semester 1 (2025/2026) must they have applied to withdraw to avoid academic penalty, and what would happen if they missed it?",
+    "ai_draft_answer": "According to the Academic Calendar for Semester 1 (2025/2026), the **last day to withdraw without academic penalty is October 28, 2025**. \n\nIf the student missed this deadline, their withdrawal would incur an academic penalty, and they may receive a failing grade, such as **‘WA’ (Withdrawn Attendance)**, as outlined in the Academic Regulations. This would occur if their absences exceeded the allowed threshold of 20%, which triggers an automatic course withdrawal. [Source: Academic-Regulations.pdf, Page 11; Academic Calendar.pdf, Page 4]",
+    "confidence_score": 0.668,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.11",
+      "Academic Calendar.pdf p.4",
+      "Academic-Regulations.pdf p.13",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:00:58",
+    "student_id": "anonymous",
+    "query": "What is the email address for the Student Information Centre's Registration office?",
+    "ai_draft_answer": "You can reach the Student Information Centre's Registration office by emailing **Registration@polytechnic.bh**. \n\n[Source: Registry and Information Centre.pdf, Page 4]",
+    "confidence_score": 0.664,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Registry and Information Centre.pdf p.4",
+      "Student-Handbook.pdf p.14",
+      "Student-Handbook.pdf p.14",
+      "Registration.pdf p.2",
+      "Registry and Information Centre.pdf p.3"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:02:33",
+    "student_id": "anonymous",
+    "query": "What are Bahrain Polytechnic's core values?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.2",
+      "Student-Handbook.pdf p.5",
+      "Student-Handbook.pdf p.4",
+      "Student-Handbook.pdf p.19",
+      "Student-Handbook.pdf p.8"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:04:18",
+    "student_id": "anonymous",
+    "query": "What happens if a learner loses a library book?",
+    "ai_draft_answer": "If a learner loses a library book, they are required to either:\n\n1. Pay **BD 25 plus the original cost of the book**, or\n2. Buy the book for the Library and Learning Centre (LLC) in the same or a newer edition, in which case the BD 25 fee is waived.\n\n[Source: Student-Handbook.pdf, Page 15]",
+    "confidence_score": 0.613,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Using the Library.pdf p.4",
+      "Student-Handbook.pdf p.15",
+      "Student-Handbook.pdf p.15",
+      "Using the Library.pdf p.3",
+      "Academic-Regulations.pdf p.13"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:21:46",
+    "student_id": "anonymous",
+    "query": "What is the minimum GPA required to maintain good academic standing?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.18",
+      "Academic-Regulations.pdf p.19"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T00:21:50",
+    "student_id": "anonymous",
+    "query": "When does semester 2 registration open?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this.  \nPlease consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Diploma in Film and Animation.pdf p.2",
+      "Diploma in Interactive Design.pdf p.3",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2",
+      "Academic Calendar.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:02:02",
+    "student_id": "anonymous",
+    "query": "What is the minimum CGPA required for retention in Master's and Doctoral Degree programmes?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.19",
+      "School of Business Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.18"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:05:37",
+    "student_id": "anonymous",
+    "query": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+    "ai_draft_answer": "\"I don't have sufficient information in the available documents to answer this.  \nPlease consult your academic advisor directly.\"",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Student-Handbook.pdf p.24",
+      "Diploma in Film and Animation.pdf p.2",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:05:57",
+    "student_id": "anonymous",
+    "query": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+    "ai_draft_answer": "The last day of Semester 1 (2025/2026) for attendance requirements is **January 8, 2026**. \n\n[Source: Academic Calendar.pdf, Page 3]",
+    "confidence_score": 0.522,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:06:56",
+    "student_id": "anonymous",
+    "query": "When is the Assessment Week scheduled for the end of Semester 2 (2025/2026)?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:08:10",
+    "student_id": "anonymous",
+    "query": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Academic-Regulations.pdf p.27"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:08:56",
+    "student_id": "anonymous",
+    "query": "A student's course was withdrawn for excessive absence. Based on both the Academic Regulations and the Academic Calendar, by what date in Semester 1 (2025/2026) must they have applied to withdraw to avoid academic penalty, and what would happen if they missed it?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.11",
+      "Academic Calendar.pdf p.4",
+      "Academic-Regulations.pdf p.13",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:10:20",
+    "student_id": "anonymous",
+    "query": "What are Bahrain Polytechnic's core values?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.2",
+      "Student-Handbook.pdf p.5",
+      "Student-Handbook.pdf p.4",
+      "Student-Handbook.pdf p.19",
+      "Student-Handbook.pdf p.8"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:12:13",
+    "student_id": "anonymous",
+    "query": "What happens if a learner loses a library book?",
+    "ai_draft_answer": "If a learner loses a library book, they have two options:\n\n1. They are required to either pay BD 25 in addition to the original cost of the book.\n2. Alternatively, they can replace the book by purchasing the same or a new edition for the Library Learning Centre (LLC). In this case, the BD 25 fee is waived.\n\n[Source: Student-Handbook.pdf, Page 15]",
+    "confidence_score": 0.586,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Using the Library.pdf p.4",
+      "Student-Handbook.pdf p.15",
+      "Student-Handbook.pdf p.15",
+      "Using the Library.pdf p.3",
+      "Academic-Regulations.pdf p.13"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T01:13:52",
+    "student_id": "anonymous",
+    "query": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+    "ai_draft_answer": "The Student Handbook specifies that learners facing concerns or issues can connect with the **Student Resources team**, which supports students confidentially. The team can assist with a variety of concerns, including academic challenges and personal wellbeing. Students may access support through the **Students Assist Portal** or in person by visiting their offices in Building 26. \n\nUnfortunately, the documents provided do not explicitly mention whether these services are free. It would be best to inquire directly with the Student Resources team for clarification.\n\n[Source: Student-Handbook.pdf, Page 23]",
+    "confidence_score": 0.648,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Bachelor of Business_ Marketing.pdf p.3",
+      "Student-Handbook.pdf p.23",
+      "Bachelor of Business_ Marketing.pdf p.2",
+      "Bachelor of Business_ Marketing.pdf p.4",
+      "Bachelor of Digital and Social Media Marketing.pdf p.3"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T12:51:26",
+    "student_id": "anonymous",
+    "query": "How many total credits are required to complete the Bachelor of Business Marketing programme?",
+    "ai_draft_answer": "A total of **480 credits** are required to complete the Bachelor of Business Marketing programme. \n\n[Source: Bachelor of Business_ Marketing.pdf, Page 1]",
+    "confidence_score": 0.55,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Bachelor of Business_ Marketing.pdf p.1",
+      "Bachelor of Business_ Marketing.pdf p.2",
+      "Bachelor of Digital and Social Media Marketing.pdf p.3",
+      "Bachelor of Business_ Marketing.pdf p.2",
+      "Bachelor of Business_ Marketing.pdf p.4"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T12:55:34",
+    "student_id": "anonymous",
+    "query": "What is the minimum CGPA required for retention in Master's and Doctoral Degree programmes?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this.  \nPlease consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.19",
+      "School of Business Master’s Programmes.pdf p.2",
+      "Academic-Regulations.pdf p.18"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T12:59:27",
+    "student_id": "anonymous",
+    "query": "When do classes commence for Semester 1 of the 2025/2026 academic year?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Student-Handbook.pdf p.24",
+      "Diploma in Film and Animation.pdf p.2",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T12:59:46",
+    "student_id": "anonymous",
+    "query": "What is the last day of Semester 1 (2025/2026) for attendance requirements?",
+    "ai_draft_answer": "The last day of Semester 1 (2025/2026) for attendance requirements is January 8, 2026.  \n\n[Source: Academic Calendar.pdf, Page 3]",
+    "confidence_score": 0.633,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:00:37",
+    "student_id": "anonymous",
+    "query": "When does Semester 2 of the 2025-2026 academic year begin?",
+    "ai_draft_answer": "Semester 2 of the 2025-2026 academic year begins on **February 22, 2026**. \n\n[Source: Academic Calendar.pdf, Page 4]",
+    "confidence_score": 0.675,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Diploma in Film and Animation.pdf p.2",
+      "Bachelor of Engineering (Civil).pdf p.4",
+      "Bachelor of Science in Supply Chain Management.pdf p.2",
+      "Certificate in Tertiary Teaching and Learning.pdf p.2"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:00:55",
+    "student_id": "anonymous",
+    "query": "When is the Assessment Week scheduled for the end of Semester 2 (2025/2026)?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.21",
+      "Student-Handbook.pdf p.24"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:01:50",
+    "student_id": "anonymous",
+    "query": "When is the Repeat Exams period scheduled in the 2025/2026 academic year?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic Calendar.pdf p.4",
+      "Academic Calendar.pdf p.3",
+      "Student-Handbook.pdf p.24",
+      "Student-Handbook.pdf p.24",
+      "Academic-Regulations.pdf p.27"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:03:34",
+    "student_id": "anonymous",
+    "query": "What is the penalty for returning a library book late?",
+    "ai_draft_answer": "The penalty for returning a library book late is **BD 1 per book per day**, not exceeding **BD 30**. [Source: Student-Handbook.pdf, Page 15]",
+    "confidence_score": 0.55,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Using the Library.pdf p.4",
+      "Student-Handbook.pdf p.15",
+      "Student-Handbook.pdf p.15",
+      "Academic-Regulations.pdf p.13",
+      "Using the Library.pdf p.3"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:03:52",
+    "student_id": "anonymous",
+    "query": "What are Bahrain Polytechnic's core values?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Student-Handbook.pdf p.2",
+      "Student-Handbook.pdf p.5",
+      "Student-Handbook.pdf p.4",
+      "Student-Handbook.pdf p.19",
+      "Student-Handbook.pdf p.8"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:05:51",
+    "student_id": "anonymous",
+    "query": "What happens if a learner loses a library book?",
+    "ai_draft_answer": "If a learner loses a library book, they are required to do one of the following:\n\n1. **Pay BD 25 plus the original cost of the book**, or  \n2. **Provide a replacement copy of the same or a new edition** without paying the BD 25 fee.\n\n[Source: Student-Handbook.pdf, Page 15]",
+    "confidence_score": 0.675,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Using the Library.pdf p.4",
+      "Student-Handbook.pdf p.15",
+      "Student-Handbook.pdf p.15",
+      "Using the Library.pdf p.3",
+      "Academic-Regulations.pdf p.13"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-29T13:07:28",
+    "student_id": "anonymous",
+    "query": "A Marketing student is worried about their grades and personal wellbeing after a difficult semester. Based on the Handbook, what confidential support services could they access, and are these free?",
+    "ai_draft_answer": "The Student Handbook mentions that the Student Resources team supports learners with concerns and issues. Students can raise their concerns, issues, complaints, or inquiries either through the **Students Assist Portal** or by visiting the team's offices in **Building 26**. These services are designed to address student wellbeing and academic concerns.\n\nFor more detailed support related to wellbeing, you are encouraged to contact the Student Resources team. While the document does not explicitly mention the cost, such support services are typically included as part of student resources and are likely free of charge.\n\n[Source: Student-Handbook.pdf, Page 23]",
+    "confidence_score": 0.688,
+    "reason": "Confidence below threshold — HITL escalation required",
+    "retrieved_sources": [
+      "Bachelor of Business_ Marketing.pdf p.3",
+      "Student-Handbook.pdf p.23",
+      "Bachelor of Business_ Marketing.pdf p.2",
+      "Bachelor of Business_ Marketing.pdf p.4",
+      "Bachelor of Digital and Social Media Marketing.pdf p.3"
+    ],
+    "status": "pending_advisor_review"
+  },
+  {
+    "timestamp": "2026-07-30T13:14:12",
+    "student_id": "anonymous",
+    "query": "What is the minimum GPA required to maintain good academic standing?",
+    "ai_draft_answer": "I don't have sufficient information in the available documents to answer this. Please consult your academic advisor directly.",
+    "confidence_score": 0.4,
+    "reason": "Response indicates insufficient information: 'i don't have sufficient information'",
+    "retrieved_sources": [
+      "Academic-Regulations.pdf p.22",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.15",
+      "Academic-Regulations.pdf p.18",
+      "Academic-Regulations.pdf p.19"
     ],
     "status": "pending_advisor_review"
   }

@@ -1,0 +1,131 @@
+{
+  "descriptive_statistics": {
+    "system1_gpt_only_faithfulness": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 50
+    },
+    "system1_gpt_only_answer_relevance": {
+      "mean": 0.1585,
+      "sd": 0.343,
+      "min": 0.0,
+      "max": 0.9849,
+      "n": 50
+    },
+    "system2_basic_rag_faithfulness": {
+      "mean": 0.8687,
+      "sd": 0.2841,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    },
+    "system2_basic_rag_answer_relevance": {
+      "mean": 0.7997,
+      "sd": 0.2971,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    },
+    "system3_single_agent_faithfulness": {
+      "mean": 0.8613,
+      "sd": 0.3165,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    },
+    "system3_single_agent_answer_relevance": {
+      "mean": 0.7926,
+      "sd": 0.3131,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    },
+    "system4_agentic_rag_faithfulness": {
+      "mean": 0.7129,
+      "sd": 0.4216,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    },
+    "system4_agentic_rag_answer_relevance": {
+      "mean": 0.6962,
+      "sd": 0.3889,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 50
+    }
+  },
+  "normality_tests": {
+    "System2 Faithfulness": {
+      "W": 0.5269,
+      "p": 0.0,
+      "normal": false
+    },
+    "System4 Faithfulness": {
+      "W": 0.6472,
+      "p": 0.0,
+      "normal": false
+    },
+    "System2 Ans Relevance": {
+      "W": 0.6637,
+      "p": 0.0,
+      "normal": false
+    },
+    "System4 Ans Relevance": {
+      "W": 0.6902,
+      "p": 0.0,
+      "normal": false
+    }
+  },
+  "hypothesis_tests": {
+    "H1": {
+      "metric": "faithfulness",
+      "t_statistic": 3.1826,
+      "p_value": 0.002535,
+      "cohen_d": -0.4501,
+      "effect_size": "small",
+      "reject_h0": true,
+      "alpha": 0.05,
+      "interpretation": "p < 0.01 — very significant",
+      "mean_system2": 0.8687,
+      "mean_system4": 0.7129,
+      "difference": -0.1558
+    },
+    "H2": {
+      "metric": "answer_relevance",
+      "t_statistic": 2.4318,
+      "p_value": 0.018725,
+      "cohen_d": -0.3439,
+      "effect_size": "small",
+      "reject_h0": true,
+      "alpha": 0.05,
+      "interpretation": "p < 0.05 — significant",
+      "mean_system2": 0.7997,
+      "mean_system4": 0.6962,
+      "difference": -0.1035
+    }
+  },
+  "additional_comparisons": {
+    "sys1_vs_sys4_faithfulness": {
+      "t": -11.9588,
+      "p": 0.0,
+      "d": 1.6912,
+      "effect": "large"
+    },
+    "sys1_vs_sys4_answer_relevance": {
+      "t": -7.4302,
+      "p": 0.0,
+      "d": 1.0508,
+      "effect": "large"
+    }
+  },
+  "analysis_settings": {
+    "alpha": 0.05,
+    "test": "paired t-test (ttest_rel)",
+    "effect_size": "Cohen's d",
+    "n_questions": 50,
+    "systems_compared": "System 2 (Conventional RAG) vs System 4 (Agentic RAG)"
+  }
+}

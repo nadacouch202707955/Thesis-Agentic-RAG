@@ -291,5 +291,30 @@ def run_batch_evaluation(questions_file: str, output_file: str):
     return results
 
 
+# ─────────────────────────────────────────────
+# EVALUATION WRAPPER (used by ragas_eval_rq1.py)
+# ─────────────────────────────────────────────
+def run_basic_rag_query(query: str,
+                         student_id: str = None,
+                         verbose: bool = False) -> dict:
+    """
+    Evaluation wrapper for Basic RAG (Condition 2).
+    Matches the interface expected by ragas_eval_rq1.py
+    (mirrors run_agentic_rag_query in agentic_rag.py).
+    """
+    search_client, openai_client = get_clients()
+    result = rag_query(search_client, openai_client, query,
+                        conversation_history=[], verbose=verbose)
+
+    return {
+        "query":           query,
+        "answer":          result["response"],
+        "contexts":        [c["content"] for c in result["retrieved_chunks"]],
+        "ground_truth":    "",
+        "system":          "basic_rag",
+        "latency_seconds": result["latency_seconds"],
+    }
+
+
 if __name__ == "__main__":
     run_chat()

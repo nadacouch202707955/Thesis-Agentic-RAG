@@ -319,12 +319,12 @@ def notification_agent(response: str,
     try:
         existing = []
         try:
-            with open("escalations.json", "r") as f:
+            with open("escalations.json", "r", encoding="utf-8") as f:
                 existing = json.load(f)
         except FileNotFoundError:
             pass
         existing.append(escalation_record)
-        with open("escalations.json", "w") as f:
+        with open("escalations.json", "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2, ensure_ascii=False)
         print("  [Notification Agent] Escalation logged to escalations.json")
     except Exception as e:
